@@ -19,7 +19,7 @@
 # else:
 #     different = 18- age
 #     print (f"You are a small child.")
-from networkx.algorithms.operators.binary import difference
+
 
 # consumption = float(input("Enter your favorite number: "))
 # if consumption <= 50:
