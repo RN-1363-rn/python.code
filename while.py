@@ -52,12 +52,17 @@ while attempt < 5:
     attempt += 1
     username = input("Enter your username: ")
     password = input("Enter your password: ")
-    if correct_username == username and correct_password == password:
+    if correct_username == correct_username and correct_password == correct_password:
         print("welcome")
         break
     else:
         print("Wrong username or password")
         break
+
+    #Exre..6
+
+    import random
+    N= int(input("Enter a number: "))
 
 
 
