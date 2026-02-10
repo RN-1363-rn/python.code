@@ -1,71 +1,51 @@
-# function
-
-# Exam 1
-
+#
+#
+##  Exercise 2...question 6
 import random
 
-def roll_dice():
-    return random.randint(1,6)
+# first_digit = random.randint(0,9)
+# second_digit = random.randint(0,9)
+# third_digit = random.randint(0,9)
+# print(first_digit)
+# print(second_digit)
+# print(third_digit)
+# digit_four_1 = random.randint(1,6)
+# digit_four_2 = random.randint(1,6)
+# digit_four_3 = random.randint(1,6)
+# digit_four_4 = random.randint(1,6)
+# print(digit_four_1)
+# print(digit_four_2)
+# print(digit_four_3)
+# print(digit_four_4)
+length = float(input("enter the length of the string(cm):") )
+if length > 45:
+    print("longer than 45 cm")
+else:
+    print("less than 45 cm,back it")
 
-result = 0
-while  result !=6:
-    result = roll_dice()
-    print(result)
-    if result == 6:
-        break
-
-
-# Exam 2
-
-
-import random
-
-def roll_dice(sides):
-    return random.randint(1,sides)
-
-sides = int(input("Enter number of sides: "))
-result = 0
-while result !=sides:
-    result = roll_dice(sides)
-    print(result)
-
-
-# Exam 3
-
-def gallons_to_liters(gallons):
-    return int(gallons * 0.45)
-while True :
-    gallons = int(input("Enter number of gallons: "))
-    if gallons == 0:
-        break
-
-
-
-# Exam 4
-
-def sum_list(number):
-    return sum(number)
-
-my_list = [1,2,3,4,5,7]
-
-result = sum_list(my_list)
-
-print(result)
+number_class_cabin =input("enter number_class_cabin:")
+lux = "upper desk cabin with a balcony"
+A ="above the car desk ,equipped with a window"
+B= "window less cabin above the car desk"
+C = "window less below the car desk"
+if number_class_cabin == "lux":
+    print("upper desk cabin with a balcony")
+elif  number_class_cabin == "A":
+    print("above the car desk ,equipped with a window")
+elif  number_class_cabin ==" B":
+    print("window less cabin above the car desk")
+elif  number_class_cabin == "C":
+    print("window less below the car desk")
+else:
+    print("you wrong")
 
 
-#Exam 5
-
-def remove_even(numbers):
-    new_list = []
-    for number in numbers:
-        if number % 2 == 0:
-            new_list.append(number)
-    return new_list
-
-original_list = [1,2,3,4,5,7]
-filtered_list = remove_even(original_list)
-print(filtered_list)
-print(original_list)
+gender = input("enter gender")
+if gender == "male":
+    
+hemoglobin = input("enter hemoglobin:")
+if
 
 
-# Exam 6
+
+

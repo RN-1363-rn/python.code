@@ -1,6 +1,6 @@
 #Excercise 1
 
-number = 1
+number =1
 while number <= 1000:
     if number % 3 == 0:
         print(number)
@@ -8,13 +8,14 @@ while number <= 1000:
 
 #Excercise 2
 
-inches = float(input("Enter a number in inches: "))
-if inches > 0:
-    print(inches + 2.5)
-else:
-    print("end")
+number = float(input("Enter length in inches(negative value to quite:"))
+while number >= 0:
+    centimeters = number *2.54
+    print(centimeters)
+    break
 
-#Excercise 3
+# Excercise 3
+
 smallest = None
 largest = None
 while True :
